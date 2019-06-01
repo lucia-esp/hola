@@ -2,6 +2,10 @@ a:hover {
   color: rgb(255, 0, 191);
 }
 
+a {
+    text-decoration: none;
+}
+
 h1 {
     color: rgb(97, 32, 219);
     font-size: 34px;
@@ -24,5 +28,14 @@ body {
 img {
     display: block;
     margin: 0 auto;
+}
 
+#menu {
+    border: 3px solid violet;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 4px 4px;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 0.02cm;
 }
