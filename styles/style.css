@@ -7,12 +7,18 @@ a {
 }
 
 h1 {
-    color: rgb(97, 32, 219);
-    font-size: 34px;
+    color: black;
+    font-size: 28px;
     text-align: center;
     line-height: 2;
-    letter-spacing: 0.5cm;
-    text-shadow: 1px 2px 1px yellow;
+    text-shadow: 1px 2px 2px green;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h2 {
+    font-size: 13px;
+    line-height: 2;
+    text-align: center;
 }
 
 html {
@@ -21,7 +27,7 @@ html {
 }
 
 body {
-    background-color: rgb(242, 218, 252);
+    background-color: white;
     text-align: left;
 }
 
@@ -31,11 +37,12 @@ img {
 }
 
 #menu {
-    border: 3px solid violet;
-    border-radius: 4px;
+    border: 3px solid green;
+    border-radius: 5px;
     margin: 5px;
     padding: 4px 4px;
     display: inline-block;
     text-decoration: none;
-    letter-spacing: 0.02cm;
+    font-size: 10px;
+    font-family: 'Press Start 2P';
 }
