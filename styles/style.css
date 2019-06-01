@@ -1,9 +1,10 @@
 a:hover {
-  color: rgb(255, 0, 191);
+  color: black;
 }
 
 a {
     text-decoration: none;
+    color: green;
 }
 
 p {
@@ -42,8 +43,8 @@ img {
     margin: 0 auto;
 }
 
-#menu {
-    border: 3px solid green;
+.nav-item  {
+    border: 3px solid rgb(0, 0, 0);
     border-radius: 5px;
     margin: 5px;
     padding: 4px 4px;
@@ -51,5 +52,31 @@ img {
     text-decoration: none;
     font-size: 10px;
     font-family: 'Press Start 2P';
+}
+
+.nav-item:hover {
+    border: 3px solid green;
+    border-radius: 5px;
+  
+    margin: 5px;
+    padding: 4px 4px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: 'Press Start 2P';
+    background-color: white;
+    
+}
+
+.nav {
     position: fixed;
 }
+
+#g-link:hover {
+    color: rgb(255, 0, 128);
+}
+
+#g-link {
+    color: black;
+}
+
