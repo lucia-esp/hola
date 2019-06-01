@@ -17,14 +17,17 @@ h1 {
     color: black;
     font-size: 28px;
     text-align: center;
-    line-height: 2;
-    text-shadow: 1px 2px 2px green;
+    line-height: 11;
+    text-shadow: 1px 2px 2px rgb(2, 173, 2);
     font-family: 'Press Start 2P', cursive;
+    display: inline-block;
+    background-image: url("https://i.pinimg.com/564x/2c/8b/aa/2c8baa4c7947513ba1502c2cfb21d6c7.jpg");
+    width: 1270px;
+    height: 350px;
 }
 
 h2 {
     font-size: 13px;
-    line-height: 2;
     text-align: center;
 }
 
@@ -57,7 +60,6 @@ img {
 .nav-item:hover {
     border: 3px solid green;
     border-radius: 5px;
-  
     margin: 5px;
     padding: 4px 4px;
     display: inline-block;
@@ -65,11 +67,11 @@ img {
     font-size: 10px;
     font-family: 'Press Start 2P';
     background-color: white;
-    
 }
 
 .nav {
     position: fixed;
+    background-color: white;
 }
 
 #g-link:hover {
@@ -79,4 +81,3 @@ img {
 #g-link {
     color: black;
 }
-
