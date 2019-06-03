@@ -30,7 +30,7 @@ img{
     width: 40%;
 }
 
- h2, h3, h4 {
+ h1, h2, h3, h4 {
     padding: 0px 0px 2px 6px;
     font-size: 30px;
     font-family: 'IBM Plex Serif', serif;
@@ -42,9 +42,35 @@ img{
     text-align: justify;
     font-size: 18px;
     margin: 0 auto;
+    letter-spacing: 0.01cm;
  }
 
- .subj, li {
+ .subj, li, .char-name {
     font-size: 22px;
-    padding: 2px;
+    padding: 4px;
+    margin: 5px;
+ }
+
+
+/* Pictures */
+
+ #tom-pic {
+    width: 185px;
+    height: 297px;
+    float: left;
+    padding: 10px;
+ }
+
+ #isabelle-pic {
+    width: 185px;
+    height: 307px;
+    float: left;
+    padding: 10px;
+ }
+
+ #rover-pic {
+    width: 150px;
+    height: 314px;
+    float: left;
+    padding: 12px;
  }
