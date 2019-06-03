@@ -1,0 +1,50 @@
+.nav {
+    position: fixed;
+}
+
+.nav-item {
+    border: 2px solid rgb(211, 93, 93);
+    border-radius: 5px;
+    padding: 5px 20px;
+    text-align: center;
+ }
+
+ a {
+    text-decoration: none;
+ }
+
+body {
+    background-image: url("https://images4.alphacoders.com/936/936849.jpg");
+}
+
+.content {
+    border: 3px solid black;
+    background-color: antiquewhite;
+    margin: 1px 190px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+ h2, h3, h4 {
+    padding: 0px 0px 2px 6px;
+    font-size: 30px;
+    font-family: 'IBM Plex Serif', serif;
+ }
+
+
+ p {
+    padding: 7px;
+    text-align: justify;
+    font-size: 18px;
+    margin: 0 auto;
+ }
+
+ .subj, li {
+    font-size: 22px;
+    padding: 2px;
+ }
