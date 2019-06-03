@@ -20,7 +20,7 @@ body {
 .content {
     border: 3px solid black;
     background-color: antiquewhite;
-    margin: 1px 190px;
+    margin: 10%;
 }
 
 img{
@@ -54,23 +54,44 @@ img{
 
 /* Pictures */
 
- #tom-pic {
-    width: 185px;
-    height: 297px;
+#tom-pic {
+    width: 175px;
+    height: 287px;
     float: left;
-    padding: 10px;
+    padding: 2%;
  }
 
- #isabelle-pic {
+#isabelle-pic {
     width: 185px;
     height: 307px;
     float: left;
-    padding: 10px;
+    padding: 2%;
  }
 
- #rover-pic {
-    width: 150px;
-    height: 314px;
-    float: left;
-    padding: 12px;
- }
+#digby-pic {
+   width: 150px;
+   height: 251px;
+   float: left;
+   padding: 2%;
+}
+
+#kk-pic {
+   width: 185px;
+   height: 243px;
+   float: left;
+   padding: 2%;
+}
+
+#reset-pic {
+   width: 220px;
+   height: 204px;
+   float: left;
+   padding: 2%;
+}
+
+#blathers-pic {
+   width: 200px;
+   height: 212px;
+   float: left;
+   padding: 2%;
+}
