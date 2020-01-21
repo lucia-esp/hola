@@ -3,15 +3,26 @@ a:hover {
 }
 
 p, li {
-    text-align: center;
+    letter-spacing: 0.01cm;
+}
+
+html {
+    font-size: 15px;
+    font-family: 'Merriweather', serif;
 }
 
 h1 {
-    color: #FF9500;
+    color: black;
+    font-size: 28px;
     text-align: center;
-    font-family: 'Cedarville Cursive', cursive;
-    font-size: 40px;
-    text-shadow: 1px 2px 0px black;
+    text-shadow: 1px 2px 2px red;
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+}
+
+.bh {
+    background-image: url("https://i.pinimg.com/564x/2c/8b/aa/2c8baa4c7947513ba1502c2cfb21d6c7.jpg");
+    padding: 80px;
 }
 
 body {
@@ -23,6 +34,32 @@ body {
     text-align: center;
   }
 
-html {
-    background-color: #FF9500;
+.gametitle{
+    font-size: 20px;
+}
+
+.nav-item  {
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 3px;
+    padding: 4px 4px;
+    display: inline-block;
+    font-size: 10px;
+    font-family: 'Press Start 2P';
+}
+
+.nav-item:hover {
+    border: 3px solid green;
+    border-radius: 5px;
+    font-size: 10px;
+    font-family: 'Press Start 2P';
+    background-color: white;
+}
+
+.nav {
+    position: center;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
