@@ -1,5 +1,5 @@
 a:hover {
-  color: rgb(15, 135, 248);
+  color: rgb(15, 248, 65);
 }
 
 a {
@@ -76,9 +76,21 @@ img {
 }
 
 #g-link:hover {
-    color: rgb(255, 0, 128);
+    color: rgb(0, 255, 55);
 }
 
 #g-link {
     color: black;
+}
+
+.texto {
+   text-align: center;
+   margin: 0,5;
+
+}
+
+ul {
+    width: 200px;
+    margin: 0 auto;
+    text-align: justify;
 }
