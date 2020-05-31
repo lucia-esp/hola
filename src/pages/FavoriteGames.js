@@ -1,0 +1,160 @@
+import React from "react";
+
+import FavGame from "../components/FavGame";
+import "./FavoriteGames.css";
+
+const FavoriteGames = () => {
+  return (
+    <div className="FavoriteGames">
+      <h1>my favorite games</h1>
+      <FavGame
+        title="999 Nine Doors Nine Hours Nine Persons"
+        cover="https://vignette.wikia.nocookie.net/ninehourspersonsdoors/images/a/a2/999_cover.png/revision/latest?cb=20151023065117"
+        features={[
+          "visual novel (so basically loads of text)",
+          "puzzles",
+          "multiple endings",
+          "mystery!!!!!!",
+        ]}
+        rating="my rating would be a 10/10, i played this one multiple times and i never
+        get tired of it"
+      />
+      <FavGame
+        title="Hollow Knight"
+        cover="https://cdn-products.eneba.com/resized-products/q7i-msiKJw8A73IeLKtYuwpr0ilw62NWSVQIFD0GbB0_390x400_1x-0.jpeg"
+        features={[
+          "it's very hard",
+          "the soundtrack is incredible",
+          "huge map",
+          "cute",
+        ]}
+        rating="my rating would be a 9/10, I never thought I would finish a game like
+        this, but i did it, and i loved it, and i wanna keep playing it"
+      />
+
+      <p class="gametitle">
+        <strong>Animal Crossing: New Horizons</strong>
+      </p>
+      <img
+        src="https://gamepreorders.com/wp-content/uploads/2020/01/cover-art-3.jpg"
+        height="420"
+        width="257"
+      />
+
+      <p> just a placeholder i guess we'll see</p>
+      <br />
+      <p>
+        <strong>Phoenix Wright: Ace Attorney</strong>
+      </p>
+      <img
+        src="https://vignette.wikia.nocookie.net/aceattorney/images/6/64/AA_cover_art.png/revision/latest?cb=20131229163641"
+        height="300"
+        width="300"
+      />
+      <ul>
+        <li>yup you are a lawyer!! how fun</li>
+        <li>very cool cases and intriguing characters</li>
+        <li>v good soundtrack full of action</li>
+      </ul>
+      <p>also a 10/10 don't attack me i love this series so much</p>
+      <p>
+        <strong>Silent Hill</strong>
+      </p>
+      <img
+        src="https://images-na.ssl-images-amazon.com/images/I/71tnmZY8w0L._AC_SL1102_.jpg"
+        height="300"
+        width="320"
+      />
+      <ul>
+        <li>intense!!!</li>
+        <li>good story and soundtrack</li>
+        <li>lovely dogs</li>
+      </ul>
+      <p>
+        i would rate this a 9/10 i found the puzzles to be <em>really</em> easy
+        but still so much fun to play and to stress out!{" "}
+      </p>
+      <p>
+        <strong>Metal Gear Solid 2: Sons of Liberty</strong>
+      </p>
+      <img src="https://images-na.ssl-images-amazon.com/images/I/51dOdVAk0zL.jpg" />
+      <ul>
+        <li>plot twisty</li>
+        <li>stealth!!!</li>
+        <li>cool characters</li>
+      </ul>
+      <p>
+        yeah u guessed it 9/10 this might be my fav mgs and also the first one i
+        ever played by myself!!!
+      </p>
+      <p>
+        <strong>Persona 3 Portable</strong>
+      </p>
+      <img
+        src="https://images-na.ssl-images-amazon.com/images/I/81yTRFRr23L._AC_SL1500_.jpg"
+        widht="216"
+        height="444"
+      />
+      <ul>
+        <li>good story like good and maybe a little sad</li>
+        <li>
+          you can play as a female character!!!!!! that should be the selling
+          point of this one ok
+        </li>
+        <li>cool combat and bosses</li>
+      </ul>
+      <p>
+        yes 9/10 i mean how cool is it to finally play as a girl and also this
+        version is different from the originals just for that reason
+      </p>
+      <p>
+        <strong>The Secret of Monkey Island</strong>
+      </p>
+      <a
+        href="https://en.wikipedia.org/wiki/The_Secret_of_Monkey_Island"
+        target="_blank"
+      >
+        <img src="https://upload.wikimedia.org/wikipedia/en/a/a8/The_Secret_of_Monkey_Island_artwork.jpg" />
+      </a>
+      <ul>
+        <li>so fun!!!!! and funny too</li>
+        <li>point and click adventure</li>
+        <li>v good graphics</li>
+      </ul>
+      <p>also a 9/10 forever embedded in my memory (and my heart)</p>
+      <p>
+        <strong>The Legend of Zelda: Wind Waker</strong>
+      </p>
+      <img src="https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg" />
+      <ul>
+        <li>toon link</li>
+        <li>good graphics</li>
+        <li>cute chickens</li>
+        <li>hmm sailing??? excuse meeeee</li>
+      </ul>
+      <p>
+        9/10 and to this day the only zelda game i have managed to actually
+        finish
+      </p>
+      <p>
+        <strong>Bioshock</strong>
+      </p>
+      <img src="https://static.fnac-static.com/multimedia/Images/ES/NR/35/a3/04/303925/1540-6.jpg" />
+      <ul>
+        <li>amazing story</li>
+        <li>scary</li>
+        <li>very fun!</li>
+      </ul>
+      <p>
+        9/10 i always remember this one and is in my top 10 of ps3 games (coming
+        soon)
+      </p>
+      <br />
+      <a href="#top">
+        <p>top</p>
+      </a>
+    </div>
+  );
+};
+
+export default FavoriteGames;

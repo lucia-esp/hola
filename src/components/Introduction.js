@@ -4,7 +4,7 @@ import luchiKnight from "../images/lunight.png";
 const Introduction = () => {
   return (
     <div>
-      <div class="bh">
+      <div className="bh">
         <h1>luchi y sus juegos</h1>
       </div>
       <h2 id="subh">me gusta jugar en fácil y no llorar en el intento</h2>

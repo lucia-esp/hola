@@ -2,7 +2,7 @@ import React from "react";
 
 const UpcomingGames = () => {
   return (
-    <p class="texto">
+    <p className="texto">
       y faltan tres días para que salga el
       <a
         rel="noopener noreferrer"

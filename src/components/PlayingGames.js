@@ -3,12 +3,12 @@ import React from "react";
 const PlayingGames = () => {
   return (
     <div>
-      <p class="texto">
+      <p className="texto">
         Este mes terminé el Yoku's Island Express, Old Man's Journey, Resident
         Evil 2 Remake y el Control.
       </p>
-      <p class="texto"> Tambien tengo estos juegos empezados:</p>
-      <ul class="list">
+      <p className="texto"> Tambien tengo estos juegos empezados:</p>
+      <ul className="list">
         <li>Death Stranding</li>
         <li>Wargroove</li>
         <li>Darkest Dungeon</li>

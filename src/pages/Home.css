@@ -47,42 +47,6 @@ img {
   margin: 0 auto;
 }
 
-.nav-item {
-  border: 3px solid rgb(0, 0, 0);
-  border-radius: 5px;
-  margin: 3px;
-  padding: 4px 4px;
-  display: inline-block;
-  text-decoration: none;
-  font-size: 10px;
-  font-family: "Press Start 2P";
-}
-
-.nav-item:hover {
-  border: 3px solid green;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 10px;
-  font-family: "Press Start 2P";
-  background-color: white;
-}
-
-.nav {
-  position: fixed;
-  background-color: white;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-#g-link:hover {
-  color: rgb(0, 255, 55);
-}
-
-#g-link {
-  color: black;
-}
-
 .texto {
   text-align: center;
   margin: 0, 5;
