@@ -7,10 +7,10 @@ const Nav = () => {
   return (
     <div className="nav">
       <Link to="/">
-        <div className="nav-item">home</div>
+        <div className="nav-item">Home</div>
       </Link>
       <Link to="/favoriteGames">
-        <div className="nav-item">favorite games</div>
+        <div className="nav-item">Favorite Games</div>
       </Link>
       <Link to="/animalCrossing">
         <div className="nav-item">AC</div>
