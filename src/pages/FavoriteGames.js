@@ -3,13 +3,14 @@ import React from "react";
 import FavGame from "../components/FavGame";
 import "./FavoriteGames.css";
 
+
 const FavoriteGames = () => {
   return (
     <div className="FavoriteGames">
       <h1>my favorite games</h1>
       <FavGame
         title="999 Nine Doors Nine Hours Nine Persons"
-        cover="https://vignette.wikia.nocookie.net/ninehourspersonsdoors/images/a/a2/999_cover.png/revision/latest?cb=20151023065117"
+        cover="https://i.imgur.com/8dApjvp.jpg"
         features={[
           "visual novel (so basically loads of text)",
           "puzzles",
@@ -21,7 +22,7 @@ const FavoriteGames = () => {
       />
       <FavGame
         title="Hollow Knight"
-        cover="https://cdn-products.eneba.com/resized-products/q7i-msiKJw8A73IeLKtYuwpr0ilw62NWSVQIFD0GbB0_390x400_1x-0.jpeg"
+        cover="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRM7Lhc22EfW8i2ab9gnAY-ISFSUV38TKsrFgCB6hMEgQ0-b76A&usqp=CAU"
         features={[
           "it's very hard",
           "the soundtrack is incredible",

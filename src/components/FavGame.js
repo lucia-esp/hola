@@ -14,8 +14,8 @@ const FavGame = (props) => {
         className="favgame-image"
         alt={title}
         src={cover}
-        width="300"
-        height="300"
+        width=""
+        height=""
       />
       <div>
         <ul>
