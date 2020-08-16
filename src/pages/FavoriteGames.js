@@ -10,7 +10,7 @@ const FavoriteGames = () => {
       <h1>my favorite games</h1>
       <FavGame
         title="999 Nine Doors Nine Hours Nine Persons"
-        cover="https://i.imgur.com/8dApjvp.jpg"
+        cover="https://upload.wikimedia.org/wikipedia/en/f/f1/Nine_Hours%2C_Nine_Persons%2C_Nine_Doors_Cover_Art.jpg"
         features={[
           "visual novel (so basically loads of text)",
           "puzzles",
@@ -22,7 +22,7 @@ const FavoriteGames = () => {
       />
       <FavGame
         title="Hollow Knight"
-        cover="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRM7Lhc22EfW8i2ab9gnAY-ISFSUV38TKsrFgCB6hMEgQ0-b76A&usqp=CAU"
+        cover="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR7EH0zNePRL9nLXmRjxCZ27Q47C86CsYKhVZbGEwZJ30OgmJ3s&usqp=CAU"
         features={[
           "it's very hard",
           "the soundtrack is incredible",

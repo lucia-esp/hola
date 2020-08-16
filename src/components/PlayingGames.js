@@ -4,14 +4,15 @@ const PlayingGames = () => {
   return (
     <div>
       <p className="texto">
-        Este mes terminé The Witcher 3 y el Doom Eternal. 
+        Este mes terminé The Last of Us Part II, Resident Evil Remake, el Hotline Miami 2 y el Iconoclasts. 
       </p>
       <p className="texto"> Tambien tengo estos juegos empezados:</p>
       <ul className="list">
-        <li>Danganronpa 2: Goodbye Despair</li>
+        <li>The Legend of Zelda: Link's Awakening</li>
         <li>Wargroove</li>
         <li>Spyro: Year of the Dragon</li>
         <li>Ori and the Blind Forest</li>
+        <li>Mario + Rabbids Kingdom Battle</li>
       </ul>
     </div>
   );
