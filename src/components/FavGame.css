@@ -1,0 +1,19 @@
+.favgame-title {
+  color: black;
+  letter-spacing: 0.04cm;
+}
+
+.favgame-rating {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 2;
+  
+}
+
+.favgame-text-container {
+  text-align: left;
+}
